@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Gerador de currículo</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo" style="color: white;">Gerador de currículo</h1>
+    </header>
+ 
+    <div class="conteudo">
+        <div class="dados">
+            <p class="nome">Nome:</p>
+            <input class="campo" type="text" name="" id="nome" placeholder="Seu nome aqui">
+        </div>
+
+        <div class="dados">
+            <p class="nome">Endereço:</p>
+            <input class="campo" type="text" name="" id="endereco" placeholder="Seu endereço aqui">
+        </div>
+
+        <div class="dados">
+            <p class="nome">Sua data de nascimento:</p>
+            <input class="campo" type="date" name="" id="nascimento" placeholder="">
+        </div>
+
+        <div class="dados">
+            <p class="nome">Email:</p>
+            <input class="campo" type="email" name="" id="email" placeholder="usuario@gmail.com">
+        </div>
+
+        <div class="dados">
+            <p class="nome">Suas experiências profissionais:</p>
+            <input class="campo" type="text" name="" id="texto" placeholder="eu trabalhei em .....">
+        </div>
+
+        <div class="botao">
+            <button type="button" class="button" id="botao" onclick="generatePDF()">Gerar PDF</button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>

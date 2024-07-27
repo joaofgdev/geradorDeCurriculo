@@ -1,0 +1,24 @@
+/* Importar a fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import url('/css/header.css');
+@import url('/css/corpo.css');
+@import url('/css/botao.css');
+
+:root {
+    --cor-de-fundo: #042326;
+    --cor-dos-dados: #0F5959;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho,
+.tiulo,
+.nome,
+.campo,
+.button {
+    font-family: 'Roboto', sans-serif;
+}

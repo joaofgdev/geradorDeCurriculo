@@ -1,0 +1,29 @@
+
+.conteudo{
+    background-color: var(--cor-dos-dados);
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    border-radius: 1em;
+
+}
+
+.dados{
+    padding: 1em;
+}
+
+.nome{
+    padding-bottom: 15px;
+    font-size: 25px;
+    color: white;
+}
+
+.campo{
+    font-size: 25px;
+    border: 2px;
+    border-color: black;
+    border-radius: 8px;
+
+}
+
+
